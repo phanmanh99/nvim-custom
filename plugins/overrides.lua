@@ -7,6 +7,7 @@ M.treesitter = {
     "html",
     "css",
     "javascript",
+    "java",
     "c",
   },
 }
@@ -20,6 +21,9 @@ M.mason = {
     -- web dev stuff
     "css-lsp",
     "html-lsp",
+
+    --java
+    "jdtls",
   },
 }
 
