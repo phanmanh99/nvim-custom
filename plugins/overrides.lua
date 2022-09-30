@@ -7,12 +7,14 @@ M.treesitter = {
     "html",
     "css",
     "javascript",
+    "python",
     "c",
   },
 }
 
 M.mason = {
   ensure_installed = {
+    "prettier",
     -- lua stuff
     "lua-language-server",
     "stylua",
@@ -20,6 +22,10 @@ M.mason = {
     -- web dev stuff
     "css-lsp",
     "html-lsp",
+
+    --python
+    "python-lsp-server",
+    "pyright",
   },
 }
 
